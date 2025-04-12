@@ -53,7 +53,7 @@ To create a centralized learning environment that supports educators in managing
     
     # Place the project into your local server directory (e.g., XAMPP's htdocs)
     
-    # Import the SQL file which is inside the zip folder or root folder '%.sql'
+    # Import the SQL file which is inside the zip folder or root folder 'lms_db.sql'
     # Open phpMyAdmin and import ilearn.sql file in a new database (e.g., ilearn_db)
     
     # Start Apache and MySQL via XAMPP
