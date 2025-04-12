@@ -1,0 +1,12 @@
+# Ensure GitHub detects the main languages used in the project
+*.php linguist-detectable=true
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+
+# AJAX is typically JS or jQuery, so it’s covered under *.js
+
+# Exclude vendor or other irrelevant folders from language stats (optional)
+assets/* linguist-vendored
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
